@@ -1,5 +1,4 @@
-<!doctype html>
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -9,12 +8,20 @@
 </head>
 <body>
   <header class="header">
-    <div class="container header__bar">
+    <div class="container header-bar">
       <a class="brand" href="./index.html">
-        <span class="brand__logo" aria-hidden="true">MC</span>
-        <span class="brand__name">ModelConnect Miami</span>
+        <span class="brand-logo" aria-hidden="true">MC</span>
+        <span class="brand-name">ModelConnect Miami</span>
       </a>
-      <nav class="header__nav" aria-label="basic">
+
+        <input type="checkbox" id="burger-toggle" class="burger-checkbox" />
+        <label for="burger-toggle" class="burger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+
+      <nav class="header-nav" aria-label="basic">
         <a href="./index.html">Home</a>
         <a href="./category.html">Categories</a>
         <a href="./region.html">Regions</a>
@@ -26,9 +33,9 @@
     <h1 class="page-title">Anna — Photographer</h1>
     <nav class="breadcrumb" aria-label="Breadcrumb">
       <a href="./index.html">Home</a>
-      <span class="breadcrumb__sep">→</span>
+      <span class="breadcrumb-sep">→</span>
       <a href="./category.html">Photographers</a>
-      <span class="breadcrumb__sep">→</span>
+      <span class="breadcrumb-sep">→</span>
       <span aria-current="page">Anna</span>
     </nav>
 <article class="profile">
@@ -38,7 +45,7 @@
       <img src="./img/woman.jpg" alt="Anna's work 1" loading="lazy">
     </div>
   </section>
-  <aside class="profile__panel" aria-labelledby="about-title">
+  <aside class="profile-panel" aria-labelledby="about-title">
     <h2 id="about-title">Anna — Photographer</h2>
     <div class="meta">
       <div><strong>Name:</strong> Anna Rivera</div>
@@ -56,11 +63,13 @@
       <p>Email: <a href="mailto:anna.photo@example.com">anna.photo@example.com</a><br>
          Phone: <a href="tel:+13055550123">+1 (305) 555-0123</a></p>
     </section>
-    <p><a class="btn" href="mailto:anna.photo@example.com?subject=ModelConnect%20Miami">Contact</a></p>
+    <p>
+     <button type="button" class="btn">Contact</button>
+</p>
   </aside>
 </article>
   </main>
   <footer class="footer">
-    <div class="container footer__inner">
+    <div class="container footer-inner">
       <span>© 2025 ModelConnect Miami</span>
       <nav class="footer

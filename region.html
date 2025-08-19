@@ -9,12 +9,20 @@
 
   <body>
     <header class="header">
-      <div class="container header__bar">
+      <div class="container header-bar">
         <a class="brand" href="./index.html">
-          <span class="brand__logo" aria-hidden="true">MC</span>
-          <span class="brand__name">ModelConnect Miami</span>
+          <span class="brand-logo" aria-hidden="true">MC</span>
+          <span class="brand-name">ModelConnect Miami</span>
         </a>
-        <nav class="header__nav" aria-label="basic">
+
+        <input type="checkbox" id="burger-toggle" class="burger-checkbox" />
+        <label for="burger-toggle" class="burger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+
+        <nav class="header-nav" aria-label="basic">
           <a href="./index.html">Home</a>
           <a href="./category.html">Categories</a>
           <a href="./region.html">Regions</a>
@@ -27,7 +35,7 @@
       <h1 class="page-title">Profiles – Hallandale Beach</h1>
       <nav class="breadcrumb" aria-label="Breadcrumb">
         <a href="./index.html">Home</a>
-        <span class="breadcrumb__sep">→</span>
+        <span class="breadcrumb-sep">→</span>
         <span aria-current="page">Hallandale Beach</span>
       </nav>
 
@@ -44,64 +52,64 @@
 
       <section aria-labelledby="cards-region">
         <h2 id="cards-region">Profiles from the region</h2>
-        <div class="grid grid--cards">
+        <div class="grid grid-cards">
           <article class="card">
-            <div class="card__media">
+            <div class="card-media">
               <img
                 src="./img/man.jpg"
                 alt="Profile photo of Mark Stone"
                 loading="lazy"
               />
             </div>
-            <div class="card__body">
-              <h3 class="card__title">Mark Stone</h3>
-              <div class="card__meta">Hallandale Beach · Model</div>
-              <div class="card__time">08/08/2025, 10:22 AM</div>
+            <div class="card-body">
+              <h3 class="card-title">Mark Stone</h3>
+              <div class="card-meta">Hallandale Beach · Model</div>
+              <div class="card-time">08/08/2025, 10:22 AM</div>
             </div>
           </article>
 
           <article class="card">
-            <div class="card__media">
+            <div class="card-media">
               <img
                 src="./img/man.jpg"
                 alt="Profile photo of Noah Ford"
                 loading="lazy"
               />
             </div>
-            <div class="card__body">
-              <h3 class="card__title">Noah Ford</h3>
-              <div class="card__meta">Hallandale Beach · Photographer</div>
-              <div class="card__time">08/08/2025, 07:20 AM</div>
+            <div class="card-body">
+              <h3 class="card-title">Noah Ford</h3>
+              <div class="card-meta">Hallandale Beach · Photographer</div>
+              <div class="card-time">08/08/2025, 07:20 AM</div>
             </div>
           </article>
 
           <article class="card">
-            <div class="card__media">
+            <div class="card-media">
               <img
                 src="./img/woman.jpg"
                 alt="Profile photo of Elena Sato"
                 loading="lazy"
               />
             </div>
-            <div class="card__body">
-              <h3 class="card__title">Elena Sato</h3>
-              <div class="card__meta">Hallandale Beach · Makeup Artist</div>
-              <div class="card__time">08/08/2025, 04:55 AM</div>
+            <div class="card-body">
+              <h3 class="card-title">Elena Sato</h3>
+              <div class="card-meta">Hallandale Beach · Makeup Artist</div>
+              <div class="card-time">08/08/2025, 04:55 AM</div>
             </div>
           </article>
 
           <article class="card">
-            <div class="card__media">
+            <div class="card-media">
               <img
                 src="./img/man.jpg"
                 alt="Profile photo of Daniel Ortiz"
                 loading="lazy"
               />
             </div>
-            <div class="card__body">
-              <h3 class="card__title">Daniel Ortiz</h3>
-              <div class="card__meta">Hallandale Beach · Model</div>
-              <div class="card__time">08/08/2025, 02:05 AM</div>
+            <div class="card-body">
+              <h3 class="card-title">Daniel Ortiz</h3>
+              <div class="card-meta">Hallandale Beach · Model</div>
+              <div class="card-time">08/08/2025, 02:05 AM</div>
             </div>
           </article>
         </div>
@@ -109,7 +117,7 @@
     </main>
 
     <footer class="footer">
-      <div class="container footer__inner">
+      <div class="container footer-inner">
         <span>© 2025 ModelConnect Miami</span>
       </div>
     </footer>

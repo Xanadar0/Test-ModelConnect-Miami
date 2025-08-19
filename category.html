@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html lang="en">
   <head>
     <meta charset="utf-8" />
@@ -10,12 +9,20 @@
 
   <body>
     <header class="header">
-      <div class="container header__bar">
+      <div class="container header-bar">
         <a class="brand" href="./index.html">
-          <span class="brand__logo" aria-hidden="true">MC</span>
-          <span class="brand__name">ModelConnect Miami</span>
+          <span class="brand-logo" aria-hidden="true">MC</span>
+          <span class="brand-name">ModelConnect Miami</span>
         </a>
-        <nav class="header__nav" aria-label="basic">
+
+        <input type="checkbox" id="burger-toggle" class="burger-checkbox" />
+        <label for="burger-toggle" class="burger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+
+        <nav class="header-nav" aria-label="basic">
           <a href="./index.html">Home</a>
           <a href="./category.html">Categories</a>
           <a href="./region.html">Regions</a>
@@ -28,7 +35,7 @@
       <h1 class="page-title">Photographers in Miami</h1>
       <nav class="breadcrumb" aria-label="Breadcrumb">
         <a href="./index.html">Home</a>
-        <span class="breadcrumb__sep">→</span>
+        <span class="breadcrumb-sep">→</span>
         <span aria-current="page">Photographers</span>
       </nav>
 
@@ -47,9 +54,9 @@
 
       <section aria-labelledby="cards-cat">
         <h2 id="cards-cat">Photographers’ Profiles</h2>
-        <div class="grid grid--cards">
+        <div class="grid grid-cards">
           <article class="card">
-            <div class="card__media">
+            <div class="card-media">
               <img
                 src="./img/woman.jpg"
                 alt="Profile photo of Anna Rivera"
@@ -57,15 +64,15 @@
               />
             </div>
 
-            <div class="card__body">
-              <h3 class="card__title">Anna Rivera</h3>
-              <div class="card__meta">Miami Beach · Photographer</div>
-              <div class="card__time">08/08/2025, 11:43</div>
+            <div class="card-body">
+              <h3 class="card-title">Anna Rivera</h3>
+              <div class="card-meta">Miami Beach · Photographer</div>
+              <div class="card-time">08/08/2025, 11:43</div>
             </div>
           </article>
 
           <article class="card">
-            <div class="card__media">
+            <div class="card-media">
               <img
                 src="./img/man.jpg"
                 alt="Profile photo of Noah Ford"
@@ -73,15 +80,15 @@
               />
             </div>
 
-            <div class="card__body">
-              <h3 class="card__title">Noah Ford</h3>
-              <div class="card__meta">Hallandale Beach · Photographer</div>
-              <div class="card__time">08/08/2025, 07:20</div>
+            <div class="card-body">
+              <h3 class="card-title">Noah Ford</h3>
+              <div class="card-meta">Hallandale Beach · Photographer</div>
+              <div class="card-time">08/08/2025, 07:20</div>
             </div>
           </article>
 
           <article class="card">
-            <div class="card__media">
+            <div class="card-media">
               <img
                 src="./img/woman.jpg"
                 alt="Profile photo of Ava Reed"
@@ -89,55 +96,55 @@
               />
             </div>
 
-            <div class="card__body">
-              <h3 class="card__title">Ava Reed</h3>
-              <div class="card__meta">Miami Beach · Photographer</div>
-              <div class="card__time">08/08/2025, 05:40</div>
+            <div class="card-body">
+              <h3 class="card-title">Ava Reed</h3>
+              <div class="card-meta">Miami Beach · Photographer</div>
+              <div class="card-time">08/08/2025, 05:40</div>
             </div>
           </article>
 
           <article class="card">
-            <div class="card__media">
+            <div class="card-media">
               <img
                 src="./img/man.jpg"
                 alt="Profile photo of Owen Clark"
                 loading="lazy"
               />
             </div>
-            <div class="card__body">
-              <h3 class="card__title">Owen Clark</h3>
-              <div class="card__meta">Aventura · Photographer</div>
-              <div class="card__time">08/08/2025, 03:30</div>
+            <div class="card-body">
+              <h3 class="card-title">Owen Clark</h3>
+              <div class="card-meta">Aventura · Photographer</div>
+              <div class="card-time">08/08/2025, 03:30</div>
             </div>
           </article>
 
           <article class="card">
-            <div class="card__media">
+            <div class="card-media">
               <img
                 src="./img/man.jpg"
                 alt="Profile photo of Peter Cole"
                 loading="lazy"
               />
             </div>
-            <div class="card__body">
-              <h3 class="card__title">Peter Cole</h3>
-              <div class="card__meta">Sunny Isles · Photographer</div>
-              <div class="card__time">08/08/2025, 02:55</div>
+            <div class="card-body">
+              <h3 class="card-title">Peter Cole</h3>
+              <div class="card-meta">Sunny Isles · Photographer</div>
+              <div class="card-time">08/08/2025, 02:55</div>
             </div>
           </article>
 
           <article class="card">
-            <div class="card__media">
+            <div class="card-media">
               <img
                 src="./img/woman.jpg"
                 alt="Profile photo of Yara Moss"
                 loading="lazy"
               />
             </div>
-            <div class="card__body">
-              <h3 class="card__title">Yara Moss</h3>
-              <div class="card__meta">Miami Beach · Photographer</div>
-              <div class="card__time">08/08/2025, 02:20</div>
+            <div class="card-body">
+              <h3 class="card-title">Yara Moss</h3>
+              <div class="card-meta">Miami Beach · Photographer</div>
+              <div class="card-time">08/08/2025, 02:20</div>
             </div>
           </article>
         </div>
@@ -145,7 +152,7 @@
     </main>
 
     <footer class="footer">
-      <div class="container footer__inner">
+      <div class="container footer-inner">
         <span>© 2025 ModelConnect Miami</span>
       </div>
     </footer>
